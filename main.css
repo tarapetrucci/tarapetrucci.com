@@ -25,9 +25,7 @@ h2{
 	padding: 5px 5px 5px 5px;
 	margin-top: -10;
 }
-img{
-	width:500px;
-}
+
 nav{
 	text-align: center;
 	margin-top: 10px;
@@ -52,8 +50,8 @@ nav a:hover{
 
 .pink-section{
 	background-color: pink;
-	height: 200px;
 	color:white;
+	height:200px;
 
 }
 
@@ -61,6 +59,20 @@ nav a:hover{
 	background-color:lightgrey;
 	height:200px;
 	color: white;
+}
+
+.artwork{
+	border: 3px solid gray;
+	padding: 10px;
+	font-size: 50px;
+	margin-right: 20px;
+	display: inline-block;
+	width: auto;
+	margin-bottom: 20px;
+}
+
+.artwork > img{
+	max-width:200px;
 }
 
 footer{
