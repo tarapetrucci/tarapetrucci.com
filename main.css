@@ -22,8 +22,8 @@ h2{
 	font-weight: lighter;
 	font-style: italic;
 	text-align: center;
-	padding: 5px 5px 10px 5px;
-	margin-top: -15;
+	padding: 5px 5px 5px 5px;
+	margin-top: -10;
 }
 img{
 	width:500px;
@@ -61,6 +61,13 @@ nav a:hover{
 	background-color:lightgrey;
 	height:200px;
 	color: white;
+}
+
+footer{
+	background-color: pink;
+	color: white;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
 
 }
 
