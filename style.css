@@ -1,0 +1,36 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-size:62.5%;
+	font-family: Helvetica, sans-serif;
+	background: url('images/body-bg.png') repeat-x top #ffffff;
+}
+
+div#page-wrap{
+	width: 700px;
+	margin:0px auto;
+}
+
+ul#nav{
+	height: 236px;
+	background-image: url('images/header-background.png');
+	list-style: none;
+	padding-left: 127px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+ul#nav li a{
+	display: block;
+	width: 130px;
+	float: left;
+	margin-top: 200px;
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+
+}
+
