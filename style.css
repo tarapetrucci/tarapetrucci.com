@@ -1,3 +1,15 @@
+@media only screen and (min-width : 1px) {
+	ul li a{
+		font-size: 8px;	
+	}
+}
+
+@media only screen and (min-width : 420px) {
+	ul li a{
+		font-size: 15px;	
+	}
+}
+
 *{
 	margin:0px;
 	padding:0px;
@@ -6,31 +18,37 @@
 body{
 	font-size:62.5%;
 	font-family: Helvetica, sans-serif;
-	background: url('images/body-bg.png') repeat-x top #ffffff;
+	background: url('assets/bg.jpg') no-repeat top #ffffff;
 }
 
 div#page-wrap{
-	width: 700px;
+	width: 100%;
 	margin:0px auto;
+	box-sizing: border-box;
+	background: white;
 }
 
 ul#nav{
-	height: 236px;
-	background-image: url('images/header-background.png');
 	list-style: none;
-	padding-left: 127px;
+	display: flex;
 	background-position: center;
 	background-repeat: no-repeat;
+	text-align: center;
+	justify-content: space-around;
+	padding: 15px 0px;
+	max-width: 650px;
+	margin: 0px auto;
+	flex-wrap: wrap;
 }
 
 ul#nav li a{
-	display: block;
-	width: 130px;
-	float: left;
-	margin-top: 200px;
-	color: white;
-	font-size: 14px;
+	color: rgb(24, 27, 32);
 	text-decoration: none;
 
 }
+
+ul#nav li {
+	display: inline;
+}
+
 
