@@ -21,7 +21,7 @@ body{
 	font-family: 'Oxygen', sans-serif;
 	font-size:62.5%;
 	background: url('assets/bg.jpg') no-repeat top #ffffff;
-	background-size: 100%;
+	background-size: cover;
 	background-position: center;
 }
 
